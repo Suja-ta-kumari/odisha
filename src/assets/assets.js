@@ -46,6 +46,29 @@ import tara from "./tara.png";
 import location from "./location.jpg";
 import odishaaa from "./odishaaa.jpg";
 import heri from "./heri.png";
+import marada1 from "./marada1.jpeg"
+import marada2 from "./marada2.jpeg"
+import marada3 from "./marada3.jpeg"
+import monkCharacter from "./monkCharacter.png"
+import dhauli from "./dhauli.jpg"
+import dhauli1 from "./dhauli1.jpg"
+import dhauli2 from "./dhauli2.jpg"
+import dhauli3 from "./dhauli3.jpg"
+import samleswari1 from "./samleswari1.jpg"
+import samleswari2 from "./samleswari2.webp"
+import samleswari3 from "./samleswari3.webp"
+import samleswari from "./samleswari.webp"
+import kon from "./kon.jpeg"
+import kon1 from "./kon1.jpeg"
+import kon2 from "./kon2.jpeg"
+import kon3 from "./kon3.jpeg"
+import maradaa from "./maradaa.jpg"
+import tarini from "./tarini.webp"
+import tarini1 from "./tarini1.jpg"
+import tarini2 from "./tarini2.jpg"
+import tarini3 from "./tarini3.jpeg"
+
+
 
 
 
@@ -90,6 +113,29 @@ export const assets = {
     dalu,
     location,
     odishaaa,
+    marada1,
+    marada2,
+    marada3,
+    monkCharacter,
+    dhauli,
+    dhauli1,
+    dhauli2,
+    dhauli3,
+    samleswari,
+    samleswari1,
+    samleswari2,
+    samleswari3,
+    kon,
+    kon1,
+    kon2,
+    kon3,
+    maradaa,
+    tarini,
+    tarini1,
+    tarini2,
+    tarini3
+    
+
    
     
 }
@@ -181,11 +227,44 @@ export const roomsDummyData = [
         "established": "1733 AD",
         "contact": "+91-1234567890",
         "owner": userDummyData,
-        "images": [marada, roomImg2, roomImg3, roomImg4],
+        "images": [maradaa, marada1, marada2, marada3],
         // "city": "Gangtok",
         "createdAt": "2025-04-10T06:22:11.663Z",
         "updatedAt": "2025-04-10T06:22:11.663Z",
-        "__v": 0
+        "__v": 0,
+        "history": `Sarana Srikhetra Marada Jagannath Temple, established in 1733 AD, is one of the most revered religious sites in Ganjam District, Odisha. 
+        The temple is dedicated to Lord Jagannath and has been a center of devotion and pilgrimage for nearly three centuries. 
+        Built with intricate architecture reflecting the Kalinga style, the temple showcases exquisite carvings and sculptures that depict various aspects of Hindu mythology. 
+
+        Throughout its history, the temple has played a significant role in the local culture, hosting annual festivals such as Rath Yatra, which attracts thousands of devotees from nearby villages and towns. 
+        The temple administration has maintained the traditional rituals and ceremonies, preserving centuries-old practices of worship and devotion. 
+
+        Apart from its spiritual significance, Sarana Srikhetra Marada Jagannath Temple has also been a hub of social and cultural gatherings, fostering community bonding and charitable activities. 
+        Visitors not only come for prayers but also admire the scenic surroundings, peaceful ambiance, and the historical heritage that the temple embodies.`,
+        "timeline": [
+  {
+    year: "14th Century",
+    title: "Traditional Worship Origins",
+    description: "Local beliefs trace the roots of Jagannath worship in the region to early cultural practices."
+  },
+  {
+    year: "18th Century",
+    title: "Temple Establishment",
+    description: "The shrine structure was established as a spiritual center for surrounding communities."
+  },
+  {
+    year: "20th Century",
+    title: "Cultural Recognition",
+    description: "The temple grew in prominence as a major local pilgrimage site."
+  },
+  {
+    year: "Present Day",
+    title: "Annual Rituals and Devotees",
+    description: "Known as 'Sarana Srikhetra', the site attracts large gatherings for regional celebrations."
+  }
+]
+
+
     },
     {
         // "_id": "67f76452197ac559e4089b8e",
@@ -205,11 +284,46 @@ export const roomsDummyData = [
         "established": "1972",
         "contact": "+91-1234567890",
         "owner": userDummyData,
-        "images": [dalu, roomImg2, roomImg3, roomImg4],
+        "images": [dhauli, dhauli1, dhauli2, dhauli3],
         // "city": "Gangtok",
         "createdAt": "2025-04-10T06:22:11.663Z",
         "updatedAt": "2025-04-10T06:22:11.663Z",
-        "__v": 0
+        "__v": 0,
+        "history": `Dhauligiri Shanti Stupa, also known as the Peace Pagoda, is a prominent Buddhist monument located in the Dhauligiri region. 
+        Built to promote peace, harmony, and the teachings of Buddha, the stupa is situated in a serene and scenic environment, offering panoramic views of the surrounding mountains and valleys. 
+
+        The stupa was constructed as part of the international Peace Pagoda movement, which aims to inspire people towards non-violence and inner peace. 
+        It is an architectural marvel featuring traditional Buddhist design elements, including a large dome, prayer wheels, and intricately carved statues of Buddha and other deities. 
+
+        Dhauligiri Shanti Stupa has become a major pilgrimage and tourist attraction, drawing visitors from across the world who come to meditate, participate in religious ceremonies, and experience the tranquility of the location. 
+        The site also hosts various cultural and spiritual events throughout the year, reflecting the rich Buddhist heritage and traditions of the region. 
+
+        Apart from its spiritual significance, the stupa serves as a symbol of global unity, compassion, and the universal message of peace. 
+        Visitors often enjoy long walks along the surrounding trails, capturing the breathtaking landscapes and soaking in the peaceful atmosphere that the monument radiates.`,
+        "timeline": [
+  {
+    year: "261 BCE",
+    title: "Kalinga War",
+    description: "The bloody war here led Emperor Ashoka to embrace Buddhism."
+  },
+  {
+    year: "3rd Century BCE",
+    title: "Ashokan Inscriptions",
+    description: "Rock edicts promoting peace and dharma were carved at Dhauli."
+  },
+  {
+    year: "1972",
+    title: "Shanti Stupa Construction",
+    description: "The Peace Pagoda was built by Japan Buddha Sangha and Kalinga Nippon Buddha Sangha."
+  },
+  {
+    year: "Present",
+    title: "Symbol of Peace",
+    description: "A global symbol promoting non-violence, meditation, and harmony."
+  }
+]
+
+
     },
     {
         // "_id": "67f76406197ac559e4089b82",
@@ -224,16 +338,50 @@ export const roomsDummyData = [
         // "__v": 0
 
         "_id": "heritage_003",
-        "name": "Shree Shree Samaleswari.",
+        "name": "Shree Shree Samaleswari",
         "address": "Ray Pada, Khetrajpur, Sambalpur, Odisha 768003, India",
         "established": "Mid-16th Century",
         "contact": "+91-1234567890",
         "owner": userDummyData,
-        "images": [samles, roomImg2, roomImg3, roomImg4],
+        "images": [samleswari, samleswari1, samleswari2, samleswari3],
         // "city": "Gangtok",
         "createdAt": "2025-04-10T06:22:11.663Z",
         "updatedAt": "2025-04-10T06:22:11.663Z",
-        "__v": 0
+        "__v": 0,
+        "history": `Shree Shree Samaleswari Temple, located in Sambalpur, Odisha, is one of the most revered Hindu temples in western Odisha. 
+        Dedicated to Goddess Samaleswari, the presiding deity of Sambalpur, the temple has been a center of spiritual and cultural importance for centuries. 
+        The temple is believed to have been originally constructed several centuries ago, with renovations and expansions carried out over time to accommodate the growing number of devotees. 
+
+        The temple architecture showcases traditional Odisha style, with beautifully carved stone pillars, intricate sculptures, and a majestic sanctum. 
+        The deity is worshipped with great devotion, and the temple is especially vibrant during festivals such as Nuakhai, Durga Puja, and Dussehra, attracting thousands of devotees from across the state. 
+
+        Shree Shree Samaleswari Temple is not only a spiritual hub but also a cultural landmark, reflecting the rich heritage and traditions of Odisha. 
+        It serves as a place for community gatherings, religious ceremonies, and charitable activities, making it a cornerstone of local society. 
+        Visitors often experience a peaceful ambiance, engaging in prayers, rituals, and exploring the historic significance of the temple and its surroundings.`,
+        "timeline": [
+  {
+    year: "1541",
+    title: "Temple Construction",
+    description: "Built during the Chauhan dynasty to honor Maa Samaleswari."
+  },
+  {
+    year: "17th Century",
+    title: "Expansion and Patronage",
+    description: "Kings funded temple rituals and elevated it as a cultural center."
+  },
+  {
+    year: "20th Century",
+    title: "Regional Pilgrimage Growth",
+    description: "Gained prominence as Western Odisha's spiritual identity."
+  },
+  {
+    year: "Present",
+    title: "Major Festival – Nuakhai",
+    description: "Lakhs of devotees visit during the agricultural celebration."
+  }
+]
+
+
     },
     {
         // "_id": "67f763d8197ac559e4089b7a",
@@ -253,11 +401,48 @@ export const roomsDummyData = [
         "established": "13th Century CE",
         "contact": "+91-1234567890",
         "owner": userDummyData,
-        "images": [konark, roomImg2, roomImg3, roomImg4],
+        "images": [kon, kon1, kon2, kon3],
         // "city": "Gangtok",
         "createdAt": "2025-04-10T06:22:11.663Z",
         "updatedAt": "2025-04-10T06:22:11.663Z",
-        "__v": 0
+        "__v": 0,
+        "history": `Konark Sun Temple, located in Konark, Odisha, is a 13th-century architectural marvel dedicated to Lord Surya, the Sun God. 
+        Built by King Narasimhadeva I of the Eastern Ganga dynasty around 1250 AD, the temple is famously designed in the shape of a colossal chariot with intricately carved stone wheels, pillars, and walls. 
+
+        The temple is a UNESCO World Heritage Site and is considered one of the finest examples of Kalinga architecture. 
+        Its sculptures and carvings depict a wide range of themes, including mythology, daily life, animals, and erotic art, showcasing the rich artistic and cultural heritage of medieval Odisha. 
+
+        Konark Sun Temple was originally constructed to serve as a monumental chariot of the Sun God, symbolizing the cycle of time. 
+        The temple's majestic structure, detailed carvings, and astronomical alignment demonstrate the advanced engineering and architectural skills of the era. 
+
+        Over centuries, the temple has faced natural decay and partial destruction, yet it continues to attract millions of devotees, tourists, historians, and photographers from around the world. 
+        Annual festivals like the Konark Dance Festival celebrate traditional Odissi dance and music, highlighting Odisha’s vibrant cultural legacy. 
+
+        Today, the temple stands not only as a religious site but also as an enduring symbol of India’s historical, artistic, and spiritual achievements, making it a must-visit heritage monument.`,
+        "timeline": [
+  {
+    year: "1250 CE",
+    title: "Construction",
+    description: "Built by King Narasimhadeva I in the form of a celestial chariot."
+  },
+  {
+    year: "16th Century",
+    title: "Structural Decline",
+    description: "Temple began to deteriorate due to natural and human damage."
+  },
+  {
+    year: "1900s",
+    title: "Restoration Efforts",
+    description: "Archaeological Survey of India began preservation work."
+  },
+  {
+    year: "1984",
+    title: "UNESCO World Heritage Status",
+    description: "Recognized globally for its architectural and cultural significance."
+  }
+]
+
+
     },
      {
         // "_id": "67f763d8197ac559e4089bn6",
@@ -277,11 +462,43 @@ export const roomsDummyData = [
         "established": "8th Century AD",
         "contact": "+91-1234567890",
         "owner": userDummyData,
-        "images": [tara, roomImg2, roomImg3, roomImg4],
+        "images": [tarini, tarini1, tarini2, tarini3],
         // "city": "Gangtok",
         "createdAt": "2025-04-10T06:22:11.663Z",
         "updatedAt": "2025-04-10T06:22:11.663Z",
-        "__v": 0
+        "__v": 0,
+        "history": `Maa Tara Tarini Temple, located atop the picturesque Kumari Hills on the banks of the Rushikulya River in Ganjam district of Odisha, is one of the oldest and most revered Shakti Peethas in India. The shrine is believed to be associated with the ancient legend of Goddess Sati, where her breasts are said to have fallen, making the site a sacred centre of divine feminine worship.
+
+        The origins of the temple trace back to prehistoric times, with strong connections to tribal traditions, early fertility worship, and Tantric practices. The name “Tara” also links the site to Buddhist Tantrism and Vajrayana traditions, showcasing the region’s layered cultural evolution.
+
+        During the medieval period, particularly around the 16th and 17th centuries, the temple complex began to take structural form with royal patronage and increased devotional prominence. In the modern era, extensive renovations in the early 2000s enhanced the temple’s architecture, accessibility, and pilgrim facilities, including pathways and ropeway services.
+
+        Today, Maa Tara Tarini Temple stands as a major spiritual and cultural landmark, attracting millions of devotees, especially during the vibrant Chaitra festival held in March and April. The temple symbolizes the enduring legacy of Shakta worship in Odisha and remains a powerful representation of India’s ancient spiritual heritage, cultural continuity, and architectural devotion.`,
+
+        "timeline": [
+  {
+    year: "Prehistoric Era",
+    title: "Shakti Peetha Origins",
+    description: "Believed to be one of the oldest Mother Goddess worship sites."
+  },
+  {
+    year: "17th Century",
+    title: "Hilltop Shrine Development",
+    description: "Temple complex expanded on the Kumari hills."
+  },
+  {
+    year: "2000s",
+    title: "Major Renovation",
+    description: "Modern temple architecture and pilgrim facilities added."
+  },
+  {
+    year: "Present",
+    title: "Chaitra Festival Significance",
+    description: "One of the largest gatherings for Goddess Tara worship."
+  }
+]
+
+
     },
     {
 //   "_id": "67f763d8197ac559e4089b17", // unique id
@@ -302,11 +519,46 @@ export const roomsDummyData = [
         "established": "1733 AD",
         "contact": "+91-1234567890",
         "owner": userDummyData,
-        "images": [marada, roomImg2, roomImg3, roomImg4],
+        "images": [maradaa, marada1, marada2, marada3],
         // "city": "Gangtok",
         "createdAt": "2025-04-10T06:22:11.663Z",
         "updatedAt": "2025-04-10T06:22:11.663Z",
-        "__v": 0
+        "__v": 0,
+        "history": `Sarana Srikhetra Marada Jagannath Temple, located in Marada, Ganjam District, Odisha, was established in 1733 AD and has since been a significant spiritual and cultural center in the region. 
+        Dedicated to Lord Jagannath, the temple attracts thousands of devotees every year, particularly during major festivals like Rath Yatra and other religious celebrations. 
+
+        The temple's architecture reflects the traditional Kalinga style, with intricately carved stone structures, ornate pillars, and beautifully decorated sanctum. 
+        Over the centuries, it has been maintained and renovated by local rulers and devotees to preserve its spiritual sanctity and cultural heritage. 
+
+        Sarana Srikhetra Marada Jagannath Temple is not only a place of worship but also a hub for cultural and social gatherings. 
+        Devotees participate in rituals, charitable activities, and community events that strengthen the local traditions and foster a sense of unity. 
+
+       The temple's serene environment, combined with its historical significance and architectural grandeur, makes it a must-visit site for pilgrims and tourists alike. 
+       Visitors often explore the temple grounds, admire the artistry, and immerse themselves in the spiritual atmosphere that the temple radiates.`,
+       "timeline": [
+  {
+    year: "14th Century",
+    title: "Traditional Worship Origins",
+    description: "Local beliefs trace the roots of Jagannath worship in the region to early cultural practices."
+  },
+  {
+    year: "18th Century",
+    title: "Temple Establishment",
+    description: "The shrine structure was established as a spiritual center for surrounding communities."
+  },
+  {
+    year: "20th Century",
+    title: "Cultural Recognition",
+    description: "The temple grew in prominence as a major local pilgrimage site."
+  },
+  {
+    year: "Present Day",
+    title: "Annual Rituals and Devotees",
+    description: "Known as 'Sarana Srikhetra', the site attracts large gatherings for regional celebrations."
+  }
+]
+
+ 
 }
 
 ]

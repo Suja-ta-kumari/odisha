@@ -57,7 +57,7 @@ const HeritageCard = ({ room, index }) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: index * 0.08 }}
     >
-      <Link to={"/desti/" + room._id} onClick={() => scrollTo(0, 0)}>
+      <Link to={"/destination/" + room._id} onClick={() => scrollTo(0, 0)}>
         <motion.div
           whileTap={{ scale: 0.96 }}   // 🔹 Click animation
           whileHover={{ scale: 1.02 }} // 🔹 Hover lift
